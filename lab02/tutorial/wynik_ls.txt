@@ -1,0 +1,5 @@
+total 12
+drwxrwxr-x 2 student student 4096 paź 19 11:59 .
+drwxrwxr-x 3 student student 4096 paź 19 11:56 ..
+-rw-rw-r-- 1 student student    0 paź 19 11:59 wynik_ls.txt
+-rw-rw-r-- 1 student student   46 paź 19 11:58 wynik_pwd.txt
