@@ -1,0 +1,3 @@
+szymon   tty2         local            Mon Nov  9 00:19 - still logged in
+
+wtmpdb begins Mon Nov  9 00:19:52 2026
