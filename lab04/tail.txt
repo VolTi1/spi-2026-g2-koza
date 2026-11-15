@@ -1,0 +1,46 @@
+sgi-cad		17004/tcp			# Cluster Admin daemon
+binkp		24554/tcp			# binkp fidonet protocol
+asp		27374/tcp			# Address Search Protocol
+asp		27374/udp
+csync2		30865/tcp			# cluster synchronization tool
+dircproxy	57000/tcp			# Detachable IRC Proxy
+tfido		60177/tcp			# fidonet EMSI over telnet
+fido		60179/tcp			# fidonet EMSI over TCP
+
+# Local services
+==> /etc/services <==
+sgi-cad		17004/tcp			# Cluster Admin daemon
+binkp		24554/tcp			# binkp fidonet protocol
+asp		27374/tcp			# Address Search Protocol
+asp		27374/udp
+csync2		30865/tcp			# cluster synchronization tool
+dircproxy	57000/tcp			# Detachable IRC Proxy
+tfido		60177/tcp			# fidonet EMSI over telnet
+fido		60179/tcp			# fidonet EMSI over TCP
+
+# Local services
+
+==> /etc/fstab <==
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/nvme0n1p5 during curtin installation
+/dev/disk/by-uuid/cc0134fa-3110-47b5-80e3-1799a733cd7d / ext4 defaults 0 1
+# /boot/efi was on /dev/nvme0n1p2 during curtin installation
+/dev/disk/by-uuid/AE09-CCBD /boot/efi vfat defaults 0 1
+/swap.img	none	swap	sw	0	0
+==> /etc/services <==
+dircproxy	57000/tcp			# Detachable IRC Proxy
+tfido		60177/tcp			# fidonet EMSI over telnet
+fido		60179/tcp			# fidonet EMSI over TCP
+
+# Local services
+
+==> /etc/fstab <==
+# / was on /dev/nvme0n1p5 during curtin installation
+/dev/disk/by-uuid/cc0134fa-3110-47b5-80e3-1799a733cd7d / ext4 defaults 0 1
+# /boot/efi was on /dev/nvme0n1p2 during curtin installation
+/dev/disk/by-uuid/AE09-CCBD /boot/efi vfat defaults 0 1
+/swap.img	none	swap	sw	0	0
